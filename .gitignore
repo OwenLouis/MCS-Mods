@@ -1,0 +1,14 @@
+# 编译输出
+bin/
+obj/
+*.user
+*.suo
+
+# 游戏文件（避免误传）
+*.dll
+!dist/*.dll
+
+# IDE
+.vs/
+.idea/
+.vscode/
